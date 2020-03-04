@@ -7,9 +7,9 @@
                         <h2>Hcode Store</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
                         <div class="footer-social">
-                            <a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/hcodebr" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA" target="_blank"><i class="fa fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/lisboainfo1" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <!--<a href="https://twitter.com/lisboainfo" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA" target="_blank"><i class="fa fa-youtube"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2017 Hcode Treinamentos. <a href="http://www.hcode.com.br" target="_blank">hcode.com.br</a></p>
+                        <p>&copy; 2020 Lisbo@Info Comércio e Serviços. <a href="http://www.lisboainfo.com.br" target="_blank">lisboainfo.com.br</a></p>
                     </div>
                 </div>
                 
@@ -82,17 +82,17 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     
     <!-- jQuery sticky menu -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
+    <script src="res/site/js/owl.carousel.min.js"></script>
+    <script src="res/site/js/jquery.sticky.js"></script>
     
     <!-- jQuery easing -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="res/site/js/jquery.easing.1.3.min.js"></script>
     
     <!-- Main Script -->
-    <script src="js/main.js"></script>
+    <script src="res/site/js/main.js"></script>
     
     <!-- Slider -->
-    <script type="text/javascript" src="js/bxslider.min.js"></script>
-	<script type="text/javascript" src="js/script.slider.js"></script>
+    <script type="text/javascript" src="res/site/js/bxslider.min.js"></script>
+	<script type="text/javascript" src="res/site/js/script.slider.js"></script>
   </body>
 </html>
