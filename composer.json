@@ -1,14 +1,12 @@
 {
-    "name": "lisboainfo/composer",
+    "name": "lisboa22/ecommerce",
     "description": "Ecommerce Lisboainfo",
-    "type": "project",
     "authors": [
         {
             "name": "lisboa22",
             "email": "lisboa22@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "phpmailer/phpmailer":"5.2.22",
         "slim/slim":"2.0",
