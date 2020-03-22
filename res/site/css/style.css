@@ -31,10 +31,10 @@ body { font-family:Arial, Helvetica, sans-serif; }
 
 
 .header-area {
-    background: none repeat scroll 0 0 #f4f4f4;
+    background: none repeat scroll 0 0 #ff5f0a;
 }
 .header-area a {
-    color: #888;
+    color: #fff;
 }
 .user-menu ul {
     list-style: outside none none;
@@ -48,7 +48,7 @@ body { font-family:Arial, Helvetica, sans-serif; }
     display: block;
     font-size: 13px;
     margin-right: 5px;
-    padding: 10px;
+    padding: 10px; /* Altera o padding do topo do header área usuário */
 }
 .user-menu li a i.fa {
     margin-right: 5px;
@@ -59,7 +59,7 @@ body { font-family:Arial, Helvetica, sans-serif; }
 }
 .header-right ul.list-inline li a {
     display: block;
-    padding: 9px;
+    padding: 10px; /* Altera o padding do topo do header área moeda e linguagem */
 }
 .header-right ul.list-inline li ul a {
     padding: 5px 15px;
@@ -73,7 +73,7 @@ body { font-family:Arial, Helvetica, sans-serif; }
     text-align: center;
 }
 
-.mainmenu-area {background: none repeat scroll 0 0 #fbfbfb;
+.mainmenu-area {background: none repeat scroll 0 0 #ddd; /* Altera a cor de fundo do menu. */
 font-family: "Roboto Condensed",sans-serif;
 text-transform: uppercase;
 width: 100%;
@@ -82,8 +82,8 @@ z-index: 999;}
 
 
 .logo h1 {
-    font-size: 40px;
-    margin: 30px 0;font-weight: 400;
+    font-size: 40px; /* Altera o tamnha da fonte da área do logo do header */
+    margin: 10px 0;font-weight: 400; /* Altera a parte de baixo do carrinho do header */
 }
 .logo h1 a {
     color: #999;
@@ -93,22 +93,22 @@ z-index: 999;}
     color: #e67e22;
 }
 .shopping-item {
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Altera cor da borda do carrinho do header */
     float: right;
     font-size: 18px;
-    margin-top: 40px;
-    padding: 10px;
+    margin-top: 28px; /* Altera a altura do carrinho do header */
+    padding: 10px; /* Altera o pading da área do carrinho */
     position: relative;
 }
 .shopping-item a {
-    color: #666;
+    color: #666; /* Altera cor da font do carrinho do header */
 }
 .cart-amunt {
-    color: #e67e22;
+    color: #ff5f0a; /* Altera cor da font do valor do carrinho do header */
     font-weight: 700;
 }
 .product-count {
-    background: none repeat scroll 0 0 #e67e22;
+    background: none repeat scroll 0 0 #ff5f0a; /* Altera a cor do count do carrinho do header */
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -122,7 +122,7 @@ z-index: 999;}
     width: 20px;
 }
 .shopping-item i.fa {
-    margin-left: 15px;
+    margin-left: 15px; /* Altera a distancia entre o valor e o icone do carrinho do header */
 }
 
 
@@ -142,12 +142,12 @@ z-index: 999;}
 
 
 .mainmenu-area ul.navbar-nav li a {
-    color: #6e6a6a;
-    font-size: 14px;
-    padding: 20px;
+    color: #6e6a6a; /* Altera a cor da fonte do menu. */
+    font-size: 16px;
+    padding: 10px; /* Altera a largura do menu */
 }
 
-.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #e67e22; color:#FFF;}
+.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #ff5f0a; color:#FFF;}
 .mainmenu-area .nav > li > a:focus {color: #FFF;}
 
 .slider-area { width:80%; position:relative; margin:0 auto; padding:5px;}
@@ -382,10 +382,10 @@ z-index: 999;}
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;overflow: hidden;border: 1px solid #ddd;
+    width: 100%;overflow: hidden;border: 1px solid #ddd; /* Altera a cor da borda do painel do produto. */ 
 }
 .product-hover:after {
-  background: none repeat scroll 0 0 #000;
+  background: none repeat scroll 0 0 #000; /* Altera a cor do fundo do painel do produto ao colocar o mouse sobre ele. */ 
   content: "";
   height: 100%;
   left: -100%;
@@ -395,26 +395,26 @@ z-index: 999;}
   width: 100%;transition: .4s;
 }
 .product-hover a {
-    background: none repeat scroll 0 0 #e67e22;
+    background: none repeat scroll 0 0 #e67e22; /* Altera a cor do fundo do Botão Adicionar ao carrinho. */ 
     border-radius: 5px;
-    color: #fff;
+    color: #fff; /* Altera a cor da fonte do Botão Adicionar ao carrinho. */ 
     display: block;
-    font-size: 16px;
+    font-size: 12px;
     left: 10%;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     position: absolute;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid #e67e22;
+    border: 1px solid #e67e22; /* Altera a cor da borda do Botão Adicionar ao carrinho. */ 
     width: 80%;z-index: 99;transition: .4s;
 }
 .product-hover a:hover {
-  background: #000;
-  text-decoration: none;border-color: #444;
+  background: #fff; /* Altera a cor do fundo do Botão Adicionar ao carrinho e Detlhes quando selecionado. */ 
+  text-decoration: none;border-color: #444; /* Altera a cor da borda do Botão Adicionar ao carrinho e Detlhes quando selecionado. */ 
 }
 .product-carousel-price ins {
-  color: #e67e22;
+  color: #e67e22; /* Altera a cor do valor do Produto. */ 
   font-weight: 700;
   margin-right: 5px;
   text-decoration: none;
@@ -548,7 +548,7 @@ z-index: 999;}
 .footer-top-area .zigzag-bottom{background: #f4f4f4}
 .footer-top-area {background: none repeat scroll 0 0 #333;
 color: #999;
-padding: 35px 0 180px;}
+padding: 35px 0 18px;} /* Altera o padding do footer */
 
 
 .footer-bottom-area {background: #000;color: #fff}
@@ -618,7 +618,7 @@ padding: 35px 0 180px;}
     margin-top: 25px;
 }
 a {color: #e67e22}
-a:hover, a:focus {color: #17a78b}
+a:hover, a:focus {color: #000} /* Altera a cor do texto do botão ao clicar. */
 .footer-bottom-area {
   background: none repeat scroll 0 0 #000;
   color: #fff;
@@ -685,7 +685,7 @@ width: 10px;
   font-size: 50px;
   font-weight: 200;
   margin: 0;
-  padding: 50px 0;color: #fff;
+  padding: 2px 0;color: #fff;
 }
 
 .single-product-area .zigzag-bottom {background-color: #f4f4f4}
@@ -693,9 +693,6 @@ width: 10px;
 .single-product-area {
   padding: 80px 0 130px;
 }
-
-
-
 
 
 .sidebar-title {
